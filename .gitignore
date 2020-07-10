@@ -1,4 +1,8 @@
-# folder node_modules 
+# all useless things that interfere
 node_modules/
 
 web-build/
+
+.expo/
+
+.expo-shared/

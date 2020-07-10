@@ -19,9 +19,8 @@ const styles = StyleSheet.create({
     imageBox:{
         flexDirection: 'row',
         margin: 10,
-        left: '1%',
         justifyContent: 'center',
-        alignItems: 'center',
+        alignSelf: 'center',
         height: 300,
         width: '80%',
     },
@@ -29,10 +28,7 @@ const styles = StyleSheet.create({
         width: 400,
         maxWidth: window.innerWidth,
         height: 280,
-        maxHeight: window.innerWidth,
+        maxHeight: window.innerHeight,
         borderRadius: 10,
-        flexDirection: 'row',
-        justifyContent: 'center',
-        alignItems: 'center',
     },
 })

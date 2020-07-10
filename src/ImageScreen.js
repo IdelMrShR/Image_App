@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, View, Image, Pressable } from 'react-native';
 
 
-export const ScreenImage = ({source, id, homeScreen}) => {
+export const ImageScreen = ({source, id, homeScreen}) => {
     return (
         <View style={styles.container}>
             <View style={styles.imageBox}>
@@ -21,16 +21,13 @@ const styles = StyleSheet.create({
     imageBox:{
         margin: 10,
         justifyContent: 'center',
-        alignItems: 'center',
-
+        alignSelf: 'center',
     },
     image:{
         width: 400,
         maxWidth: window.innerWidth,
         height: 580,
         borderRadius: 10,
-        justifyContent: 'center',
-        alignItems: 'center',
     },
     container: {
         flex:1,

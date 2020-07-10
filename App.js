@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import {HomeImages} from './src/Image'
-import {ScreenImage} from './src/ScreenImage'
+import {ImageScreen} from './src/ImageScreen'
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { ScrollView } from 'react-native';
@@ -59,7 +59,7 @@ const HomeScreen = ({ navigation }) =>{
             navigation.navigate('Image App', {})
         }
     return(
-        <ScreenImage source={source} id={id} homeScreen={homeScreen} key={id}/>
+        <ImageScreen source={source} id={id} homeScreen={homeScreen} key={id}/>
     );
     }
 
